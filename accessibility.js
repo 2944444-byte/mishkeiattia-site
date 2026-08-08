@@ -2,7 +2,7 @@
   if (customElements.get('a11y-widget')) return;
 
   var KEY = 'mishkei-a11y';
-  var STATEMENT = 'Accessibility.dc.html';
+  var STATEMENT = 'accessibility.html';
 
   var GLOBAL_CSS = [
     'html.a11y-grayscale{filter:grayscale(1)!important}',
