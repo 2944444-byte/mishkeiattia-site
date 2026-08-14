@@ -120,7 +120,7 @@
   <section id="location" style="padding: clamp(56px, 8vw, 90px) 24px; background: #ffffff">
     <div style="max-width: 1240px; margin: 0 auto">
       <div style="font-size: 13px; font-weight: 600; color: #2E7D52; letter-spacing: 0.1em">מיקום</div>
-      <h2 style="margin: 10px 0 0; font-size: clamp(26px, 4.6vw, 40px); font-weight: 700; color: #1F3A5F; letter-spacing: -0.02em; line-height: 1.15">על אחד מעורקי התנועה הגדושים בצפון</h2>
+      <h2 style="margin: 10px 0 0; font-size: clamp(26px, 4.6vw, 40px); font-weight: 700; color: #1F3A5F; letter-spacing: -0.02em; line-height: 1.15">על אחד מצירי התנועה המרכזיים בצפון</h2>
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 48px; margin-top: 32px; align-items: start">
         <div>
           <p style="margin: 0; font-family: Assistant, sans-serif; font-size: 18px; line-height: 1.7; color: #3b4652">כביש 66 מחבר בין צומת מגידו ליקנעם, ובכניסה לקיבוץ הזורע מוקם מתחם חווייתי של בילוי וקניות. המיקום נבחר בקפידה — הוא מציע גישה נוחה לתושבי האזור, למבקרים מכל הארץ ובעיקר לנוסעים לנפוש בצפון.</p>
@@ -287,6 +287,18 @@
           </label>
           <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: #58636f; font-weight: 500">טלפון
             <input class="hs8" name="phone" type="tel" required="required" placeholder="050-0000000" style="border: 1px solid #d8dee5; border-radius: 6px; padding: 12px 14px; font-size: 16px; color: #16202c; outline: none; background: #fff; direction: ltr; text-align: right"/>
+          </label>
+          <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: #58636f; font-weight: 500">אני מתעניין ב:
+            <select name="interest" style="border: 1px solid #d8dee5; border-radius: 6px; padding: 12px 14px; font-size: 16px; color: #16202c; outline: none; background: #fbfcfd; font-family: inherit; appearance: auto">
+              <option value="" selected="selected">בחרו נושא (לא חובה)</option>
+              <option>פיתוח קרקע בשותפות</option>
+              <option>שטח לוגיסטי</option>
+              <option>שטח תעשייה</option>
+              <option>משרדים</option>
+              <option>שטח מסחרי</option>
+              <option>אחד מהפרויקטים</option>
+              <option>אחר</option>
+            </select>
           </label>
           <label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: #58636f; font-weight: 500">הודעה
             <textarea class="hs9" name="message" rows="4" placeholder="שטח נדרש ומועד כניסה מבוקש" style="border: 1px solid #d8dee5; border-radius: 6px; padding: 12px 14px; font-size: 16px; color: #16202c; outline: none; background: #fff; resize: vertical; font-family: inherit"></textarea>
